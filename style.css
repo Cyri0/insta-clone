@@ -1,3 +1,7 @@
+body{
+    background-color: #F0F0F0;
+}
+
 .container{
     max-width: 800px;
 }
@@ -36,9 +40,9 @@ h1{
 }
 
 .picture{
-    width: 200px;
-    height: 200px;
-    background-color: gray;
+    width: 250px;
+    height: 250px;
+    background-color: rgb(119, 119, 119);
     margin: auto;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -48,4 +52,43 @@ h1{
 
 #image-holder{
     border-bottom: none;
+}
+
+.menu-holder, .bg-light{
+    background-color: white !important;
+}
+
+.menu-holder{
+    -webkit-box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+}
+
+.navbar-brand{
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    margin-right: calc(100% - 300px);
+}
+
+.menu_icon{
+    width: 50px;
+    float: right;
+}
+
+.picture{
+    font-size: 0px;
+}
+
+.picture:hover{
+
+    cursor: pointer;
+    font-size: 24px;
+    line-height: 125px;
+    text-align: center;
+    color: black;
+
+    filter: grayscale(100%);
+    background-blend-mode: exclusion;
+
+    transition: 0.2s;
 }
