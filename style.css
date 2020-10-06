@@ -13,7 +13,9 @@
     width: 200px;
     height: 200px;
     border-radius: 50%;
-
+    background-image: url("pics/face2.png");
+    background-size: cover;
+    background-position: center;
     margin: auto;
 }
 
@@ -40,6 +42,8 @@ h1{
     margin: auto;
     margin-top: 10px;
     margin-bottom: 10px;
+    background-size: cover;
+    background-position: center;
 }
 
 #image-holder{
